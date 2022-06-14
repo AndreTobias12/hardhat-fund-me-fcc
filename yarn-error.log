@@ -1,0 +1,36 @@
+Arguments: 
+  /home/nicholas/.nvm/versions/node/v16.14.2/bin/node /home/nicholas/.node/corepack/yarn/1.22.15/bin/yarn.js add ==dev hardhat
+
+PATH: 
+  /home/nicholas/.nvm/versions/node/v16.14.2/bin:/home/nicholas/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2019b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/nreh/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/nreh/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nreh/AppData/Local/atom/bin:/mnt/c/Users/nreh/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/nreh/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/nreh/AppData/Roaming/npm:/mnt/c/Users/nreh/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/==dev: Not found
+      at Request.params.callback [as _callback] (/home/nicholas/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/home/nicholas/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/home/nicholas/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/home/nicholas/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

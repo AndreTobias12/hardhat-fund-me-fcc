@@ -1,0 +1,5 @@
+Unit tests are done locally 
+-local hardhat network
+-forked hardhat network <- talk about this soon
+
+Staging tests canbe done on a testnet (LAST STOP!!)
